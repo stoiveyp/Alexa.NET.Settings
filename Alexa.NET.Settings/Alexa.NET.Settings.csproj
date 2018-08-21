@@ -1,7 +1,7 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFramework>netstandard1.6</TargetFramework>
     <Authors>Steven Pears</Authors>
     <PackageReleaseNotes>Initial functionality - time zone, temperature &amp; distance</PackageReleaseNotes>
     <RepositoryUrl>https://github.com/stoiveyp/Alexa.NET.Settings</RepositoryUrl>
