@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Steven Pears</Authors>
+    <PackageReleaseNotes>Initial functionality - time zone, temperature &amp; distance</PackageReleaseNotes>
+    <RepositoryUrl>https://github.com/stoiveyp/Alexa.NET.Settings</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/stoiveyp/Alexa.NET.Settings</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/stoiveyp/Alexa.NET.Settings/blob/master/LICENSE</PackageLicenseUrl>
+    <Description>Small helper library for Alexa.NET based skills to access the settings API</Description>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Alexa.NET" Version="1.5.4" />
+  </ItemGroup>
+
+</Project>
